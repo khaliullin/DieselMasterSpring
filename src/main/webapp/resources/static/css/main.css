@@ -1,0 +1,501 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+body {
+	background: url('https://sunlightmedia.org/clients/APG/site_images/bg1.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	font-family: "Helvetica", "Helvetica Neue" !important;
+	font-size: 16px;
+}
+
+.header_topline {
+	margin-top: 25px;
+	background-color: yellow;
+	color: black;
+}
+
+.header_topline a {
+	color: black;
+}
+
+.top_links {
+	color: black;
+}
+
+.top_links a {
+	color: black;
+	padding: 12px 48px;
+	display: block;
+	-webkit-transition: all .25s;
+	-o-transition:  all .25s;
+	transition:  all .25s;
+}
+
+.top_links a:hover{
+	background-color: gold;
+	color: black;
+	text-decoration: none;
+}
+
+.top_links ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	float: right;
+    z-index: -5;
+}
+
+.top_links ul li{
+	display: inline-block;
+	font-size: 24px;
+	margin: 0;
+	padding: 0;
+	/*font-family: "ArvoRegular";*/
+    z-index: 2;
+}
+
+.top_links_button {
+    background-color: transparent;
+    border: medium none;
+    font-size: 26px;
+    color: white;
+    margin-left: 120px;
+}
+
+.logo {
+	position: absolute;
+	margin-top: -10px;
+    z-index: 10;
+}
+
+.logoMatches {
+	height: 120px;
+	width: 120px;
+	margin:auto;
+	position: relative;
+}
+
+.team img{
+	max-width: 120px;
+	max-height: 120px;
+}
+
+.near_matches, .team_list, .forum {
+	background-color: white;
+	border-radius: 5px;
+	/*font-family: "ArvoRegular";*/
+}
+
+.forum {
+	font-weight:bold;
+}
+
+.copyR {
+	float: left;
+}
+
+.contacts {
+	text-align: right;
+	float: right;
+}
+
+.slider_container img {
+	max-width: 100%;
+    display: block;
+}
+
+.information {
+	min-height: 20px;
+	padding: 19px;
+	margin-bottom: 20px;
+	background-color: white;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px 1px white;
+	box-shadow: inset 0 1px 1px white;
+}
+
+.slide_item {
+    display: block;
+    height: auto;
+}
+
+.slider_container {
+	position: relative;
+    max-width:100%;
+}
+
+.next_button, .prev_button {
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 10em;
+	color: white;
+    cursor: pointer;
+	font-size: 48px;
+    padding: 0 25px;
+	position: absolute;
+	z-index: 1;
+	top:43%;
+}
+
+.next_button {
+	right: 15px;
+}
+
+.prev_button {
+	left: 15px;
+}
+
+.mod_heading {
+	height: 30px;
+	background: yellow;
+	color: black;
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 5px;
+	/*font-family: "ArvoRegular";*/
+}
+
+.green_button {
+	font-size: 25px;
+	background-color: greenyellow;
+	margin-bottom: 30px;
+	padding: 0;
+	width: 100%;
+}
+
+.green_button a{
+	color: black;
+	display: block;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.green_button a:hover, .team_list a:hover, .forum a:hover {
+	text-decoration: none;
+	color: black;
+}
+
+.team_list a, .forum a {
+	color: black;
+	display: block;
+}
+
+.footer {
+	background: #191970;
+	color: white;
+	padding-top: 16px;
+	padding-bottom: 16px;
+	font-size: 12px;
+	width: 100%;
+	position:  inherit;
+	bottom: 0;
+}
+
+.logoMin {
+	height: 60px;
+	width: 60px;
+	margin:auto;
+	position: relative;
+}
+
+.logoMin img, .logoMatches img{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.teamTable {
+	text-align: center;
+}
+
+.teamTable ul, .team ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.teamTable img {
+	max-width: 60px;
+	max-height: 60px;
+}
+
+.cbp-fwslider {
+    position: relative;
+    margin: 0 0 10px;
+    overflow: hidden;
+    padding: 40px 0 60px;
+}
+
+.cbp-fwslider ul {
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+    list-style-type: none;
+}
+
+.cbp-fwslider ul li {
+    transform: translateZ(0);
+    float: left;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+.cbp-fwslider ul li > a,
+.cbp-fwslider ul li > div {
+    display: block;
+    text-align: center;
+    outline: none;
+}
+
+.cbp-fwslider ul li > a img {
+    border: none;
+    display: block;
+    margin: 0 auto;
+    max-width: 75%;
+}
+
+.cbp-fwslider nav span {
+    position: absolute;
+    top: 50%;
+    width: 50px;
+    height: 100px;
+    background: #47a3da;
+    color: #fff;
+    font-size: 50px;
+    text-align: center;
+    margin-top: -50px;
+    line-height: 100px;
+    cursor: pointer;
+    font-weight: normal;
+}
+
+.cbp-fwslider nav span:hover {
+    background: #378fc3;
+}
+
+.cbp-fwslider nav span.cbp-fwnext {
+    right: 0px;
+}
+
+.cbp-fwslider nav span.cbp-fwprev {
+    left: 0px;
+}
+
+.cbp-fwdots {
+    position: absolute;
+    bottom: 0px;
+    white-space: nowrap;
+    text-align: center;
+    width: 100%;
+}
+
+.cbp-fwdots span {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background: #ddd;
+    margin: 4px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.cbp-fwdots span:hover {
+    background: #999;
+}
+
+.cbp-fwdots span.cbp-fwcurrent {
+    background: #47a3da;
+    box-shadow: 0 0 0 2px #47a3da;
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+/* Fade Slider CSS */
+.carousel .item {
+    -webkit-transition: 0.7s ease-in-out opacity;
+    -moz-transition: 0.7s ease-in-out opacity;
+    -o-transition: 0.7s ease-in-out opacity;
+    transition: 0.7s ease-in-out opacity;
+    left: 0 !important;
+}
+.carousel .next.left,
+.carousel .prev.right {
+    opacity: 1;
+    z-index: 1;
+}
+.carousel .active.left,
+.carousel .active.right {
+    opacity: 0;
+    z-index: 2;
+}
+.carousel .carousel-control {
+    z-index: 1000;
+    outline:none;
+}
+
+.page {
+	margin-top: 14px;
+	margin-bottom: 14px;
+	min-height: 75vh;
+	/*font-family: "ArvoRegular";*/
+}
+
+.modal-measure-scrollbar{
+	position:absolute;
+	height:100px;
+	width:100px;
+	top:-300px;
+	left:-300px;
+	overflow:scroll;
+	overflow-y:scroll
+}
+.modal-measure-scrollbar .inner{
+	height:200px
+}
+
+.signup-btn {
+	background: #79bc64;
+	background-image: -webkit-linear-gradient(top, #79bc64, #578843);
+	background-image: -moz-linear-gradient(top, #79bc64, #578843);
+	background-image: -ms-linear-gradient(top, #79bc64, #578843);
+	background-image: -o-linear-gradient(top, #79bc64, #578843);
+	background-image: linear-gradient(to bottom, #79bc64, #578843);
+	border-radius: 4px;
+	text-shadow: 0px 1px 0px #898a88;
+	-webkit-box-shadow: 0px 0px 0px #a4e388;
+	-moz-box-shadow: 0px 0px 0px #a4e388;
+	box-shadow: 0px 0px 0px #a4e388;
+	color: #ffffff;
+	font-size: 20px;
+	padding: 10px 20px 10px 20px;
+	border: solid #3b6e22  1px;
+	text-decoration: none;
+}
+
+.signup-btn:hover {
+	background: #79bc64;
+	background-image: -webkit-linear-gradient(top, #79bc64, #5e7056);
+	background-image: -moz-linear-gradient(top, #79bc64, #5e7056);
+	background-image: -ms-linear-gradient(top, #79bc64, #5e7056);
+	background-image: -o-linear-gradient(top, #79bc64, #5e7056);
+	background-image: linear-gradient(to bottom, #79bc64, #5e7056);
+	text-decoration: none;
+}
+.navbar-default .navbar-brand{
+	color:#fff;
+	font-size:30px;
+	font-weight:bold;
+}
+.form .form-control { margin-bottom: 10px; }
+
+.photo img{
+	max-height: 370px;
+	max-width: 370px;
+	position: relative;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.photo {
+	text-align: center;
+	font-size: 20px;
+}
+
+.photoG {
+	height: 370px;
+	width: 370px;
+	position: relative;
+}
+
+.photoG img {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	max-height: 370px;
+	max-width: 370px;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+.photo a{
+	color: black;
+	/*font-family: "ArvoRegular";*/
+}
+
+.photo a:hover {
+	text-decoration: none;
+	color: black;
+}
+
+.team_list img {
+	height: 60px;
+	width: 60px;
+}
+
+.team_list {
+	font-size: 20px;
+}
+
+.search-border {
+	border-radius: 5px;
+	font-size: 18px;
+	vertical-align: middle;
+	text-align: center;
+	min-height:40px;
+	background: white;
+	width: 100%;
+	padding: 5px;
+
+}
+
+.search-field {
+	width: 70%;
+	float: right;
+	border: 1px solid #f8f6fb;
+}
+
+.position {
+	width: 20%;
+	float: right;
+	border: none;
+	background-color: white;
+}
+
+.block-center {
+	background: white;
+	color: black;
+}
+
+a {
+	color: black !important;
+}

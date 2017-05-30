@@ -1,0 +1,391 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #f5f5f5;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    color: #222;
+}
+
+a:link {
+    color: #0055CC;
+}
+
+a:hover {
+    color: #CC0000;
+}
+
+a:visited {
+    color: #990099;
+}
+
+a:visited:hover {
+    color: #CC0000;
+}
+
+a:focus {
+    outline: none;
+}
+
+a img {
+    border: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #333;
+    font-style: italic;
+    line-height: normal;
+}
+
+h1 a:link, h2 a:link, h3 a:link, h4 a:link, h5 a:link, h6 a:link {
+    color: #333;
+}
+
+h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover, h6 a:hover {
+    color: #CC0000;
+}
+
+h1 a:visited, h2 a:visited, h3 a:visited, h4 a:visited, h5 a:visited, h6 a:visited {
+    color: #333;
+}
+
+h1, h2 {
+    font-weight: normal;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+.no_margin_top {
+    margin-top: 0;
+}
+
+.shadow {
+    height: 19px;
+    background: url(../images/shadow.jpg) no-repeat;
+}
+
+#main_wrapper {
+    width: 1000px;
+    padding: 0px 1px;
+    margin: 0 auto;
+    background: url(../images/main_bg.gif) repeat-y #fff;
+}
+
+#header {
+    padding-top: 1px;
+    height: 464px;
+    background: url(../images/header.jpg) right;
+}
+
+#logo {
+    margin: 25px 0 0 30px;
+    position: absolute;
+    width: 311px;
+    height: 35px;
+
+}
+
+ul#menu {
+    list-style: none;
+    font-size: 14px;
+    width: 555px;
+    margin: 30px 0 0 0;
+    padding: 0;
+    float: right;
+}
+
+ul#menu li {
+    float: left;
+    margin: 0 10px 8px 0;
+}
+
+ul#menu a {
+    color: #222;
+    padding: 2px 5px;
+}
+
+ul#menu a:hover {
+    color: #CC0000;
+}
+
+ul#menu a.active {
+    color: #fff;
+    background: #9b360f;
+    text-decoration: none;
+}
+
+#contacts {
+    font-size: 14px;
+    color: #fff;
+    text-align: left;
+    width: 200px;
+    margin: 180px 0 0 30px;
+    line-height: 1.5em;
+}
+
+.tabs section {
+    display: none;
+    padding: 15px;
+    background: #fff;
+    border: 1px solid #ddd;
+}
+
+/* Базовый контейнер табов */
+.tabs {
+    min-width: 320px;
+    max-width: 1200px;
+    padding: 0px;
+    margin: 0 auto;
+}
+
+/* стили секций с содержанием */
+section {
+    display: none;
+    padding: 15px;
+    background: #fff;
+    border: 1px solid #ddd;
+
+}
+
+.tabs input {
+    display: none;
+}
+
+/* стили вкладок (табов) */
+.tabs label {
+    display: inline-block;
+    margin: 0 0 -1px;
+    padding: 15px 25px;
+    font-weight: 400;
+    text-align: center;
+    color: #aaa;
+    border: 1px solid #ddd;
+    background: #f1f1f1;
+    border-radius: 3px 3px 0 0;
+}
+
+/* шрифт-иконки от Font Awesome в формате Unicode */
+.tabs label:before {
+    font-family: fontawesome;
+    font-weight: normal;
+    margin-right: 10px;
+}
+
+.tabs label[for*="1"]:before {
+    content: "\f17a";
+}
+
+.tabs label[for*="2"]:before {
+    content: "\f17a";
+}
+
+.tabs label[for*="3"]:before {
+    content: "\f13b";
+}
+
+.tabs label[for*="4"]:before {
+    content: "\f13c";
+}
+
+/* изменения стиля заголовков вкладок при наведении */
+.tabs label:hover {
+    color: #888;
+    cursor: pointer;
+}
+
+/* стили для активной вкладки */
+.tabs input:checked + label {
+    color: #555;
+    border: 1px solid #ddd;
+    border-top: 1px solid #009933;
+    border-bottom: 1px solid #fff;
+    background: #fff;
+}
+
+/* активация секций с помощью переключателя :checked */
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2,
+#tab9:checked ~ #content9,
+#tab10:checked ~ #content10,
+#tab3:checked ~ #content3,
+#tab4:checked ~ #content4,
+#tab5:checked ~ #content5,
+#tab6:checked ~ #content6,
+#tab7:checked ~ #content7,
+#tab8:checked ~ #content8 {
+    display: block;
+}
+
+/* медиа запросы для различных типов носителей */
+@media screen and (max-width: 680px) {
+    .tabs label {
+        font-size: 0;
+    }
+
+    .tabs label:before {
+        margin: 0;
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .tabs label {
+        padding: 15px;
+    }
+}
+
+#contacts a {
+    color: #fff;
+}
+
+#content {
+    margin: 0 30px;
+    line-height: 1.5em;
+    padding-bottom: 3em;
+}
+
+#news_block .news_item {
+    float: left;
+    width: 455px;
+}
+
+.news_item .news_date {
+    font-size: 11px;
+    color: #999;
+}
+
+.news_item .news_title {
+    font-size: 14px;
+}
+
+.news_item .news_announcement p {
+    margin-top: 0;
+}
+
+#about {
+    margin-top: 1.5em;
+    background: url(../images/about.jpg) no-repeat top #f1eecb;
+    padding: 1px 95px 5px 25px;
+}
+
+#objects_titles {
+    padding-top: 1px;
+    margin-top: 2em;
+}
+
+#under_construction_title {
+    border: solid 1px #d5d5d5;
+    border-bottom: none;
+    background: #fff;
+    padding: 10px 0px 5px 20px;
+    width: 220px;
+    margin: 0 0 -1px 0;
+    position: absolute;
+}
+
+#constructed_title {
+    border: solid 1px #d5d5d5;
+    border-bottom: none;
+    background: #fff;
+    float: left;
+    padding: 10px 20px 5px 20px;
+    margin: 0 0 -1px 258px;
+    position: absolute;
+}
+
+#objects {
+    margin-top: 36px;
+    width: 100%;
+}
+
+.object_title {
+    font-size: 14px;
+}
+
+.object_address {
+    font-style: italic;
+    font-size: 12px;
+}
+
+.object_image {
+    width: 200px;
+    height: 150px;
+    background-position: center;
+    display: block;
+    margin-bottom: .5em;
+}
+
+#under_construction {
+    width: 200px;
+}
+
+#under_construction, #constructed {
+    border: solid 1px #d5d5d5;
+    vertical-align: top;
+    background: url(../images/grey_bg.gif) repeat-x bottom;
+    padding: 20px;
+}
+
+#objects_spacer {
+    width: 16px;
+}
+
+#constructed {
+    padding-right: 0;
+}
+
+.constructed_object_wrapper {
+    float: left;
+    padding-right: 20px;
+    width: 200px;
+}
+
+#footer {
+    background: url(../images/footer.gif) repeat-x top;
+    padding: 20px 30px 25px 30px;
+    color: #777;
+}
+
+#copyright {
+    float: left;
+}
+
+#technoart {
+    float: right;
+}
+
+#breadcrumbs {
+    font-size: 11px;
+    margin-bottom: 2em;
+    color: #777;
+}
+
+#breadcrumbs a {
+    color: #777;
+}
+
+#breadcrumbs a:hover {
+    color: #999;
+}
+
+#breadcrumbs .separator {
+    color: #999;
+}
+
+.archive_constructed_object_wrapper {
+    padding-right: 20px;
+    padding-bottom: 2em;
+    width: 210px;
+    vertical-align: top;
+}
+
+.archive_constructed_object_wrapper .object_image {
+    border: solid 5px #eee;
+}
+

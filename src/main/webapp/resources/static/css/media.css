@@ -1,0 +1,181 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    .logo {
+        margin-top: -6px;
+    }
+    .logo img {
+        width: 149px;
+        height: 67px;
+    }
+    .top_links a {
+        padding: 10px 39px;
+    }
+    .top_links ul li{
+        font-size: 19px;
+    }
+
+    .tournament {
+        font-size: 12px;
+    }
+
+    .mc-caption {
+        width:675px !important;
+    }
+
+    #slider, #slider div.sliderInner {
+        width:675px;height:380px;/* Must be the same size as the slider images */
+    }
+
+    #sliderFrame {
+        position:relative;
+        width:675px;
+        margin:0;
+    }
+
+    #slider div.navBulletsWrapper  {
+        top:400px;/* Its position is relative to the #slider */
+        text-align:center;
+        background:none;
+        position:relative;
+        z-index:5;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    .logo img {
+        width: 114px;
+        height: 51px;
+    }
+    .top_links a {
+        padding: 6px 30px;
+    }
+    .top_links ul li{
+        font-size: 14px;
+    }
+    .tournament {
+        font-size: 16px;
+    }
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    .logo {
+        margin-top: -4px;
+    }
+    .top_menu ul {
+        background-color: yellow;: ;
+        display: none;
+        position: absolute;
+        width: 100%;
+        z-index: 2;
+    }
+    .top_menu ul li{
+        display: block;
+    }
+
+    .mc-caption {
+        width:533px !important;
+    }
+
+    #slider, #slider div.sliderInner {
+        width:533px;height:300px;/* Must be the same size as the slider images */
+    }
+
+    #sliderFrame {
+        position:relative;
+        width:533px;
+        margin:0;
+    }
+
+    #slider div.navBulletsWrapper  {
+        top:315px;/* Its position is relative to the #slider */
+        text-align:center;
+        background:none;
+        position:relative;
+        z-index:5;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    #slider, #slider div.sliderInner {
+        width:300px;height:200px;/* Must be the same size as the slider images */
+    }
+
+    #sliderFrame {
+        position:relative;
+        width:300px;
+        margin:0;
+    }
+
+    #slider div.navBulletsWrapper  {
+        top:210px;/* Its position is relative to the #slider */
+        text-align:center;
+        background:none;
+        position:relative;
+        z-index:5;
+    }
+
+    .mc-caption {
+        width:300px !important;
+    }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+    .top_menu ul {
+        display: inline-block !important;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+    .mc-caption {
+        width:800px !important;
+    }
+
+    #slider, #slider div.sliderInner {
+        width:800px;height:450px;/* Must be the same size as the slider images */
+    }
+
+    #sliderFrame {
+        position:relative;
+        width:800px;
+        margin:0;
+    }
+
+    #slider div.navBulletsWrapper  {
+        top:470px;/* Its position is relative to the #slider */
+        text-align:center;
+        background:none;
+        position:relative;
+        z-index:5;
+    }
+}

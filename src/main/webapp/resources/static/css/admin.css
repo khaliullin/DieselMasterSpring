@@ -1,0 +1,53 @@
+.topMenu {
+    padding: 20px 15%;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.tables {
+    border: 1px solid #636265;
+    width: 100%;
+    color: #535353;
+}
+
+.tables a {
+    color: #000000;
+}
+
+.table1 {
+    margin:0;
+    padding-left: 50px;
+    border-bottom: 1px solid #535353;
+}
+
+.order {
+    font-size: 28px;
+}
+
+.data {
+    margin: 10px;
+}
+
+.input {
+    width: 90%;
+}
+
+.navigation {
+    height: 100px;
+    display: inline-block;
+    /*margin: 20px 20%;*/
+    text-align: center;
+    width: 100%;
+    overflow: visible;
+}
+
+.inner {
+    margin: 0 20%;
+}
+
+.nav-btn {
+    height: 40px;
+    font-size: 20px;
+    display: inline-block;
+    width: 90px;
+}
