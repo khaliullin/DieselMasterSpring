@@ -35,7 +35,7 @@
                             <button id="mb${pm.id}" onclick="cl${pm.id}()" class="btn-group-lg"
                                     style="float: left; margin-left: 140px; display: none;">Скрыть
                             </button>
-                            <button class="btn-group-lg" onclick="location.href = '/album?id=${pm.id}&page=1'"
+                            <button class="btn-group-lg" onclick="location.href = '/album/${pm.id}/0'"
                                     style="float: right; margin-right: 140px">Фото
                             </button>
                         </div>
@@ -78,7 +78,6 @@
                 </#if>
             </div>
         </div>
-
     </div>
 </section>
 </#macro>
