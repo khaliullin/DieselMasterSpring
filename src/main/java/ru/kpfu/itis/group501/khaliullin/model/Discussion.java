@@ -60,4 +60,24 @@ public class Discussion {
 
     public Discussion() {
     }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public void setAuthor(User author) {
+        this.author = author;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setContent(String content) {
+        this.content = content;
+    }
+
+    public void setCreated(Date created) {
+        this.created = created;
+    }
 }
